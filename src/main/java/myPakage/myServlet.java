@@ -57,7 +57,7 @@ public class myServlet extends HttpServlet {
 		response.setCharacterEncoding("UTF-8");
 
 		// API Key
-		String apiKey = "6b53df28f215b0f8ad309e078ba5c1e6";
+		String apiKey = "API-KEY";
 		// Get the city from the form input
 		String city = URLEncoder.encode(request.getParameter("city"), "UTF-8");
 
