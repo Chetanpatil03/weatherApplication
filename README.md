@@ -5,7 +5,7 @@ A simple and responsive weather application built using **Java (JSP + Servlet)**
 ## 🔍 Features
 
 - ✅ Search weather by city name
-- 📡 Fetches real-time data using [OpenWeatherMap API](https://openweathermap.org/)
+- 📡 Fetches real-time data using  [OpenWeatherMap API](https://openweathermap.org/)
 - 🖼️ Dynamic weather icons
 - 🕒 Live date and time that auto-updates
 - 🌙 Dark mode toggle
@@ -28,7 +28,7 @@ A simple and responsive weather application built using **Java (JSP + Servlet)**
 
 1. **Clone the repository**
    <pre>
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Chetanpatil03/weatherApplication.git
    cd your-repo-name
    </pre>
 2. **Import into an IDE**
