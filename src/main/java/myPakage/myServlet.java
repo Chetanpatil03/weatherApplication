@@ -57,7 +57,7 @@ public class myServlet extends HttpServlet {
 		response.setCharacterEncoding("UTF-8");
 
 		// API Key
-		String apiKey = "API-KEY";
+		String apiKey = "6b53df28f215b0f8ad309e078ba5c1e6";
 		// Get the city from the form input
 		String city = URLEncoder.encode(request.getParameter("city"), "UTF-8");
 
@@ -131,7 +131,7 @@ public class myServlet extends HttpServlet {
 			System.out.println(city);
 			request.setAttribute("city", city);
 			request.setAttribute("temperature", temperatureCelsius);
-//			weatherCondition = "snow";
+//			weatherCondition = "haze";
 			request.setAttribute("weatherCondition", weatherCondition);
 			request.setAttribute("humidity", humidity);
 			request.setAttribute("windSpeed", windSpeed);
