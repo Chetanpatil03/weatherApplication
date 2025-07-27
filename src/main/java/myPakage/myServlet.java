@@ -121,15 +121,17 @@ public class myServlet extends HttpServlet {
 			String weatherCondition = jsonObject.getAsJsonArray("weather").get(0).getAsJsonObject().get("description").getAsString(); // add
 																													// getAsString();
 			
-			System.out.println(weatherCondition);
+			System.out.println(weatherCondition); 
 
 //			set the data that are parsed as a attribute.
 //			 sending to jsp
 
 			request.setAttribute("date", date);
 			city = URLDecoder.decode(city, "UTF-8");
+			System.out.println(city);
 			request.setAttribute("city", city);
 			request.setAttribute("temperature", temperatureCelsius);
+//			weatherCondition = "snow";
 			request.setAttribute("weatherCondition", weatherCondition);
 			request.setAttribute("humidity", humidity);
 			request.setAttribute("windSpeed", windSpeed);

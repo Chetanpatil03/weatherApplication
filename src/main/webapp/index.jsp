@@ -24,7 +24,7 @@
 			<button id="searchButton">
 				<i class="fa-solid fa-magnifying-glass"></i>
 			</button>
-		</form>
+		</form>  
 
 		<div class="weatherDetails">
 
